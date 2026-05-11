@@ -1,0 +1,15 @@
+[project]
+name = "simon-stalenhag-downloader"
+version = "1.0.0"
+description = "Download all Simon Stålenhag wallpapers"
+authors = [{ name = "naueramant", email = "" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+stalenhag = "stalenhag:main"
