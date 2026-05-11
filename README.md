@@ -4,22 +4,12 @@ Downloads all wallpapers from [simonstalenhag.se](https://www.simonstalenhag.se)
 
 ## Usage
 
-```sh
-# Download all wallpapers
-python stalenhag.py --all
-
-# List available wallpapers
-python stalenhag.py --list
-
-# Help
-python stalenhag.py --help
-```
-
-Or with [uv](https://docs.astral.sh/uv/):
+With [uv](https://docs.astral.sh/uv/):
 
 ```sh
 uv run stalenhag --all
 uv run stalenhag --list
+uv run stalenhag --help
 ```
 
 ## Install
@@ -27,6 +17,12 @@ uv run stalenhag --list
 ```sh
 uv sync
 uv run stalenhag --all
+```
+
+Or run directly without installing:
+
+```sh
+uvx stalenhag --all
 ```
 
 ## Output
